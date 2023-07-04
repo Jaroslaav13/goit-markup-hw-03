@@ -21,6 +21,10 @@ ul{
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
+    
+}
+img{
+    display: block;
 }
 body{
     font-family:"Roboto",sans-serif;
@@ -135,8 +139,7 @@ body{
 
 .hero-container{
     background: var(--navy-blue);
-    width: 100%;
-    max-width: 1440px;
+    padding: 188px 0;
 }
 .hero-title{
         color: var(--white);
@@ -145,9 +148,9 @@ body{
         font-weight: 700;
         line-height:1.07;
         letter-spacing: 0.02em;
-        max-width: 496px;
-        padding: 188px 472px 292px 472px;
-}
+        margin: 0 auto;
+        max-width: 496px
+        }
 .link-button{
         color: var(--white);
         font-size: 16px;
