@@ -13,14 +13,28 @@
     --dairy:#FCFCFC;
     
 }
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
 body{
     font-family:"Roboto",sans-serif;
     color:var(--slate);
     background-color:var(--white);
 }
-img{
-    display: block;
+.container{
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -42,7 +56,23 @@ img{
 /* ----header---- */
 .header{
     background-color: var(--white);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    }
+.container-header{
+    display: flex;
+    align-items: center;
+    gap: 332px;
+    
 }
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: space-between;
+    gap: 76px;
+    }
 .header-logo{
     color: var(--iris);
     font-size: 18px;
@@ -52,6 +82,9 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
 }
 .color{
     color: var(--navy-blue);
@@ -60,6 +93,10 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.site-nav{
+    display: flex;
+    gap: 40px;
 }
 .link-nav.link{
     color:var(--navy-blue);
@@ -78,6 +115,10 @@ img{
 .contacts{
     font-style: normal;
 }
+.contacts-item{
+    display: flex;
+    gap: 40px;
+}
 .contacts-item .contact-link{
     color: var(--slate);
     font-size: 16px;
@@ -91,8 +132,11 @@ img{
 }
 /** --------Hero section ----*/
 
-.hero-section{
-    background:var(--navy-blue);
+
+.hero-container{
+    background: var(--navy-blue);
+    width: 100%;
+    max-width: 1440px;
 }
 .hero-title{
         color: var(--white);
@@ -101,6 +145,8 @@ img{
         font-weight: 700;
         line-height:1.07;
         letter-spacing: 0.02em;
+        max-width: 496px;
+        padding: 188px 472px 292px 472px;
 }
 .link-button{
         color: var(--white);
