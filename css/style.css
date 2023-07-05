@@ -183,9 +183,15 @@ body{
     }
 .list-item{
     width: calc((100% - 24px * 3) / 4);
+    
 }
 .section-team{
     background-color:var(--cloud);
+      
+}
+.team-container{
+     padding-top: 120px;
+     padding-bottom: 120px;
 }
 .section-title{
         color: var(--navy-blue);
@@ -195,12 +201,21 @@ body{
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        max-width: 323px;
+        max-width: 324px;
         margin: 0 auto;
         padding-bottom: 72px;
-           }
+     }
+    .section-list-team{
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+        
+    }
     .list-team{
         background-color: var(--white);
+        text-align: center;
+        
+               
     }
 .list-title{
         color: var(--navy-blue);
@@ -208,13 +223,17 @@ body{
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-top: 32px;
         margin-bottom: 8px;
+        
 }
 .list-text{
         color: var(--slate);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-bottom: 32px;
+        
 }
 /* ------FOOTER--------------- */
 
