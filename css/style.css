@@ -173,6 +173,9 @@ padding: 188px 0;
         margin: 0 auto;
         padding: 16px 32px;
         border-radius: 4px;
+        min-width: 159px;
+        height: 56px;
+        border: none;
                     
      }
 .link-button:hover,.link-button:focus{
@@ -185,6 +188,9 @@ padding: 188px 0;
 }
 .section-work{
     padding-bottom: 120px;
+}
+.section-title{
+    margin-bottom: 72px;
 }
 .section-list{
     display: flex;
