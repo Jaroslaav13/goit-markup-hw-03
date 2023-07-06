@@ -173,7 +173,7 @@ padding: 188px 0;
         margin: 0 auto;
         padding: 16px 32px;
         border-radius: 4px;
-        min-width: 159px;
+        min-width: 169px;
         height: 56px;
         border: none;
                     
@@ -189,9 +189,7 @@ padding: 188px 0;
 .section-work{
     padding-bottom: 120px;
 }
-.section-title{
-    margin-bottom: 72px;
-}
+
 .section-list{
     display: flex;
     align-content: space-between;
@@ -219,7 +217,7 @@ padding: 188px 0;
         text-transform: capitalize;
         max-width: 324px;
         margin: 0 auto;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
      }
     .section-list-team{
         display: flex;
@@ -230,31 +228,37 @@ padding: 188px 0;
     .list-team{
         background-color: var(--white);
         text-align: center;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
+        
      
     }
-.list-title{
+    .group{
+        padding: 32px 16px;
+    }
+    .list-title{
         color: var(--navy-blue);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        margin-top: 32px;
-        margin-bottom: 8px;
-        
-}
-.list-text{
+         margin-bottom: 8px; 
+       
+    }
+    .list-text{
         color: var(--slate);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-bottom: 32px;
-        
-}
+                    
+    }
+
+
 /* ------FOOTER--------------- */
 
 .footer{
         background-color:var(--navy-blue);
-        padding: 101.5px;
+        padding: 100px 0;
        
 }
 .footer-container{
@@ -269,6 +273,8 @@ padding: 188px 0;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-left: 0;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .color-footer{
         color:var(--cloud);
