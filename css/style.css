@@ -102,14 +102,18 @@ body{
     
 }
 .list-nav{
-    padding: 24px 0;
+   
 }
+ .link-nav{
+    padding: 24px 0;
+ }
 .link-nav.link{
     color:var(--navy-blue);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing:0.02em
+    
 }
 .link-nav:hover,
 .link-nav:focus{
@@ -124,6 +128,7 @@ body{
 .contacts-item{
     display: flex;
     gap: 40px;
+    margin-left:0 auto;
     
 }
 .contacts-item .contact-link{
@@ -354,7 +359,7 @@ padding: 96px 0 120px 0;
     padding: 32px 16px;
     border: 1px solid var(--cornflower);
     border-top: none;
-    margin-bottom: 8px;
+  
 }
 .title-portfolio {
         color:var(--navy-blue);
@@ -362,7 +367,7 @@ padding: 96px 0 120px 0;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-         
+        margin-bottom: 8px;
 }
 
 .text-portfolio {
